@@ -6,7 +6,7 @@
 
 class SDLApp {
  public:
-  SDLApp(std::string titolo, int _w, int _h, int _fps);
+  SDLApp(std::string title, int _w, int _h, int _fps);
   void close(int);
   int runApp();
   // Application functions
@@ -19,8 +19,8 @@ class SDLApp {
   int w, h;
 
  private:
-  bool continua;
-  int ritorno;
+  bool continueRunning;
+  int returnValue;
   int fps;
 };
 

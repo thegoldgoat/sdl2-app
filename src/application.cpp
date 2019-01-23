@@ -18,10 +18,10 @@ void Application::events() {
             this->close(0);
             break;
         case SDL_KEYDOWN:
-            // carattere premuto -> ev.key.keysym.sym;
+            // key pressed -> ev.key.keysym.sym;
             break;
         case SDL_MOUSEBUTTONDOWN:
-            // coordinate mouse -> ev.button.x ev.button.y
+            // mouse coordinates -> ev.button.x ev.button.y
             break;
         }
     }
